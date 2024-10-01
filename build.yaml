@@ -9,5 +9,6 @@ include:
     shield: corne_right
   - board: seeeduino_xiao_ble
     shield: corne_dongle_xiao
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: settings_reset
