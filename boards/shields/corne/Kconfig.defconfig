@@ -1,0 +1,15 @@
+if SHIELD_CORNE_DONGLE_XIAO
+
+config ZMK_KEYBOARD_NAME
+    default "corndong"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 4
+
+endif
